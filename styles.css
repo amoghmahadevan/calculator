@@ -1,0 +1,74 @@
+body{
+    background-color: #FAEBD7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-family: 'Manrope', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+#calc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: grey;
+    padding: 20px;
+    width: 400px;
+    min-height: 550px;
+    gap: 10px;
+}
+.screen{
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: lightgrey;
+    padding: 20px;
+    width: 350px;
+    min-height: 100px;
+    word-wrap: break-word;
+    font-family: 'Manrope', sans-serif;
+    font-size: 32px;
+}
+.first{
+    flex: 1;
+    display: flex;
+    gap: 15px; 
+}
+.clear,
+.delete{
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    width: 175px;
+}
+.clear{
+    background-color: lightcoral;
+}
+.delete{
+    background-color: lightskyblue;
+}
+.second, .third, .fourth, .fifth{
+    display: flex;
+    gap: 20px;
+}
+.seven, .eight, .nine,.divide,
+.four, .five, .six, .multiply,
+.one, .two, .three, .subtract,
+.decimal, .zero, .equals, .plus{
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: lightgrey;
+    padding: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    width: 75px; 
+}
+button{
+    cursor:pointer;
+}
